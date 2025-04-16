@@ -1,1 +1,1 @@
-## React Mini Compoent and Features
+## React Mini Component and Features

@@ -1,0 +1,22 @@
+.board {
+  display: flex;
+  flex: 1;
+  padding: 4px;
+}
+
+.phase {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.task {
+  margin: 8px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: lightsalmon;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: large;
+}

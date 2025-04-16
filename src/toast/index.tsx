@@ -1,3 +1,9 @@
 export function Toast() {
-  return <div>Toast</div>;
+  return (
+    <div>
+      <center>
+        <h1>Toast</h1>
+      </center>
+    </div>
+  );
 }

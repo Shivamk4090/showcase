@@ -10,7 +10,7 @@ export function StarRating({}) {
     setHoverIndex(e);
   };
 
-  const handleMouseLeave = (e: number) => {
+  const handleMouseLeave = () => {
     setHoverIndex(rating);
   };
 
@@ -29,7 +29,7 @@ export function StarRating({}) {
                   handleMouseOver(e);
                 }}
                 onMouseLeave={() => {
-                  handleMouseLeave(e);
+                  handleMouseLeave();
                 }}
                 onClick={() => handleMouseClick(e)}
                 style={{
